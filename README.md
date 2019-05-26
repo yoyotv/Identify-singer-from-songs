@@ -39,9 +39,21 @@ You have to install
 
 2. Download the [data](https://drive.google.com/open?id=1wSQbFb_mLSsVtb8iYHTJuOCQ7K5ANfTA)
 
-3. Put the data under /librosa-mel/train/, after that careate three folder named mel, mel_1, mel_2. It shouls look like this.
+3. Put the data under /Identify-singer-from-songs-master/train/, after that careate three folder named mel, mel_1, mel_2. It should look like this.
 
 <img src="https://raw.githubusercontent.com/yoyotv/Identify-singer-from-songs/master/figures/1.JPG" >
+
+5. Create folders like this in order to stroe the features. It should look like this.
+
+<img src="https://raw.githubusercontent.com/yoyotv/Identify-singer-from-songs/master/figures/HI.JPG" >
+
+4. Run ```python generate_features.py```.
+
+5. Run ```python generate_list```. Don't forget to set the path in generate_list.
+
+6. Copy your train.txt and test.txt to /Identify-singer-from-songs-master
+
+7. Run caffe ```./build/tools/caffe train --solver=/home/username/Identify-singer-from-songs-master/resnet_50_solverprotxt```
 
 
 
