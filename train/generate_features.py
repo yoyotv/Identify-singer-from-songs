@@ -28,7 +28,7 @@ for k in range(10):
       mel = librosa.feature.melspectrogram(y = signal, sr = fs, n_fft = 2048, hop_length = 512)
 
       mel = librosa.power_to_db(mel, ref = np.max)      #Convert scale to db
-
+      """
       ####################librosa-mel-1#####################################################
 
       mel = librosa.feature.melspectrogram(y = signal, sr = fs, n_fft = 2048, hop_length = 512)
@@ -68,7 +68,7 @@ for k in range(10):
       merge_name = "/home/dl-linux/Desktop/new6/train/all/" + name[k] + "/" + str(i) + "_" + str(j) + ".jpg"
 
       merge = np.concatenate((mfcc,logenergy),axis = 1)
-
+      """
       ####################save featrues#####################################################
       name = "/home/dl-linux/Desktop/new9/train/mel_2/" + name[k] + "/" + str(i) + "_" + str(j) + ".jpg"    # Set your path! 
 
