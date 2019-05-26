@@ -8,7 +8,7 @@ This repository is created because apply CNN in different fields are also challe
 
 ## Approach 
 
-There are a lot of features can represent a sound. E.g., MEl, FFT, STFT. Most of them are focus on the frequency, After all, frequency means the band that a person speaks. We try the mel, stft, log-energy, power spectrum , these four kinds of method.
+There are a lot of features can represent a sound. E.g., MEl, FFT, STFT. Most of them are focus on the frequency, After all, frequency means the band that a person speaks. **We try the mel, stft, log-energy, power spectrum , these four kinds of method.**
 
 ## GET started
 
