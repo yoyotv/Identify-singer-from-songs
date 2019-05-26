@@ -33,6 +33,28 @@ You have to install
 
 2. Finished!
 
+## Start training!
+
+1. Let's us librosa library to extract the mel features!
+
+2. Download the [data](https://drive.google.com/open?id=1wSQbFb_mLSsVtb8iYHTJuOCQ7K5ANfTA)
+
+3. Put the data under /librosa-mel/train/, after that careate three folder named mel, mel_1, mel_2. It shouls look like this.
+
+<img src="https://raw.githubusercontent.com/yoyotv/Identify-singer-from-songs/master/figures/1.JPG" >
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Tutorial
 
 **The folder name is base on the different feature that We use for training. Let us use librosa-mel as our tutorial.**
@@ -52,7 +74,3 @@ Assume we are under librosa-mel.
 ## Notice
 
 The folder under librosa-mel mel, mel_1, mel_2 means the mel feature, derivative of mel amd double derivative of mel respectively.
-
-## Training by our own data
-
-1. Let's us librosa library to extract the features!
