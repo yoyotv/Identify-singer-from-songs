@@ -43,11 +43,16 @@ Assume we are under librosa-mel.
 
 2. ```python generate_list.py``` (Don't forget change the path in generate_list.py !)
 
-3. ```cd mel``` and copy the train.txt and val.txt to /librosa-mel
+3. ```cd mel``` and copy the train.txt and val.txt to /librosa-mel.
 
-4. Run caffe ```./build/tools/caffe train --solver=/home/username/librosa-mel/resnet_50_solverprotxt```
+4. Modify the path in resnet_50.prototxt, resnet_50_solver.prototxt.
 
+5. Run caffe ```./build/tools/caffe train --solver=/home/username/librosa-mel/resnet_50_solverprotxt```
 
+## Notice
 
+The folder under librosa-mel mel, mel_1, mel_2 means the mel feature, derivative of mel amd double derivative of mel respectively.
 
-1. 
+## Training by our own data
+
+1. Let's us librosa library to extract the features!
