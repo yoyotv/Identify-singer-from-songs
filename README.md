@@ -16,6 +16,19 @@ Seperate 2500 into 2000 (training) and 500 (testing). We choose the first 8 song
 
 We use modified-Resnet-50 as our CNN backbone. 
 
+## Pre-train model
+
+| Library | Feature | Test Accuracy |
+|:-:|:-:|:-:|
+|speechpy| mel | 0.32 |
+|speechpy| log_nergy| 0.32 |
+|speechpy| mel + log_energy| 0.34 |
+|speechpy| power| 0.1 |
+|speechpy| fft | 0.352 |
+|librosa| mel| 0.392|
+|librosa| mel_1| 0.26|
+|librosa| mel_2| 0.316|
+
 
 ## GET started
 
