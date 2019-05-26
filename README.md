@@ -99,4 +99,4 @@ Use the files in delpoy folder to deploy!
 
 ## Acknowledgement
 
-1. The data is provided by Prof. [Jen-Chun Lin](https://sites.google.com/site/jenchunlin/)
+1. The data we use in this repository is provided by Prof. [Jen-Chun Lin](https://sites.google.com/site/jenchunlin/)
