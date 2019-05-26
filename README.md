@@ -29,6 +29,7 @@ We use modified-Resnet-50 as our CNN backbone.
 |librosa| mel_1| 0.26|
 |librosa| mel_2| 0.316|
 
+You can find the pre-train model at [here](https://drive.google.com/open?id=1ibqVRA9jI5js5ZyjRPl9dexzzBRCoXCG).
 
 ## GET started
 
