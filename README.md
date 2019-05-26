@@ -75,3 +75,9 @@ You have to install
 4. The features (e.g. mel) extract from different library led us to a different accuracy. The mel features extracted by sppechpy only reach about 32 %, but if we use librosa to extaract mel, the accuracy can reach 39.2%.
 
 5. We merge the mel and log-energy feature by concatenate them as one input. But the accuracy only increase about 2%.
+
+## Deploy
+
+1. We first seperate the songs into 25 frames just like the process that we did in training part. We feed the 25 frames into the model and get 25 results. Which singer has the most highest classification number will be our final determine.
+
+2. We download other 3 songs from the internet, but the classify result is quiet embarrassing. Only one result is correct.
