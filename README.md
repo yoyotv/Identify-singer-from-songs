@@ -10,6 +10,8 @@ This repository is created because apply CNN in different fields are also challe
 
 There are a lot of features can represent a sound. E.g., MEl, FFT, STFT. Most of them are focus on the frequency, After all, frequency means the band that a person speaks. **We try the mel, stft, log-energy, power spectrum , these four kinds of methods.**
 
+We use modified-Resnet-50 as our CNN backbone.
+
 ## GET started
 
 You have to install
