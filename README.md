@@ -29,7 +29,15 @@ We use modified-Resnet-50 as our CNN backbone.
 |librosa| mel_1| 0.26|
 |librosa| mel_2| 0.316|
 
-You can find the pre-train model at [here](https://drive.google.com/open?id=1ibqVRA9jI5js5ZyjRPl9dexzzBRCoXCG).
+Each model is trained at least 1~2 hours to reach the presented accuracy.
+
+We stop the training process while the accuracy stops increased at least 2~3 hours.
+
+You can download the pre-train model at [here](https://drive.google.com/open?id=1ibqVRA9jI5js5ZyjRPl9dexzzBRCoXCG).
+
+Some of bad models (e.g. speechpy power) are useless, so I did not upload it.
+
+By the way, we use GTX 1080Ti.
 
 ## GET started
 
