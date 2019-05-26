@@ -32,3 +32,22 @@ You have to install
   ```
 
 2. Finished!
+
+## Tutorial
+
+**The folder name is base on the different feature that We use for training. Let us use librosa-mel as our tutorial.**
+
+Assume we are under librosa-mel.
+
+1. ```cd train  ```
+
+2. ```python generate_list.py``` (Don't forget change the path in generate_list.py !)
+
+3. ```cd mel``` and copy the train.txt and val.txt to /librosa-mel
+
+4. Run caffe ```./build/tools/caffe train --solver=/home/username/librosa-mel/resnet_50_solverprotxt```
+
+
+
+
+1. 
