@@ -73,3 +73,5 @@ You have to install
 3. Dropout only increase accuracy about 1~2 %.
 
 4. The features (e.g. mel) extract from different library led us to a different accuracy. The mel features extracted by sppechpy only reach about 32 %, but if we use librosa to extaract mel, the accuracy can reach 39.2%.
+
+5. We merge the mel and log-energy feature by concatenate them as one input. But the accuracy only increase about 2%.
