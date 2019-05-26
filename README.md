@@ -8,7 +8,7 @@ This repository is created because apply CNN in different fields are also challe
 
 ## Approach 
 
-There are a lot of features can represent a sound. E.g., MEl, FFT, STFT. Most of them are focus on the frequency, After all, frequency means the band that a person speaks. **We try the mel, stft, log-energy, power spectrum , these four kinds of method.**
+There are a lot of features can represent a sound. E.g., MEl, FFT, STFT. Most of them are focus on the frequency, After all, frequency means the band that a person speaks. **We try the mel, stft, log-energy, power spectrum , these four kinds of methods.**
 
 ## GET started
 
@@ -21,3 +21,12 @@ You have to install
 3. [Speechpy](https://github.com/astorfi/speechpy) for extracting features.
 
 4. [Librosa](https://librosa.github.io/librosa/) for extracting features.
+
+## Installation
+
+1. Clone the repository
+  ```
+  git clone https://github.com/yoyotv/Character-detection-and-recognition.git
+  ```
+
+2. Finished!
