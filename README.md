@@ -12,7 +12,7 @@ There are a lot of features can represent a sound. E.g., MEl, FFT, STFT. Most of
 
 Each song is about 30 seconds long. We take the first 25 seconds as our data. We will draw the spectrum in every 1 second. So we will have 25 frames of spectrum in one song. Totally we will have 25 (frames) * 10 (songs) * 10 (singers) = 2500 frames.
 
-Seperate 2500 into 2000 (training) and 500 (testing). We choose the first 8 songs as the training data, the rest 2 songs as the testing data for every singer.**
+Seperate 2500 into 2000 (training) and 500 (testing). We choose the first 8 songs as the training data, the rest 2 songs as the testing data for every singer.
 
 We use modified-Resnet-50 as our CNN backbone. 
 
@@ -96,3 +96,7 @@ Use the files in delpoy folder to deploy!
 1. We first seperate the songs into 25 frames just like the process that we did in training part. We feed the 25 frames into the model and get 25 results. Which singer has the most highest classification number will be our final determine.
 
 2. We download other 3 songs from the internet, but the classify result is quiet embarrassing. Only one result is correct.
+
+## Acknowledgement
+
+1. The data is provided by Prof. [Jen-Chun Lin](https://sites.google.com/site/jenchunlin/)
