@@ -55,34 +55,6 @@ You have to install
 
 7. Run caffe ```./build/tools/caffe train --solver=/home/username/Identify-singer-from-songs-master/resnet_50_solverprotxt```
 
+## Notice 
 
-
-
-
-
-
-
-
-
-
-
-
-## Tutorial
-
-**The folder name is base on the different feature that We use for training. Let us use librosa-mel as our tutorial.**
-
-Assume we are under librosa-mel.
-
-1. ```cd train  ```
-
-2. ```python generate_list.py``` (Don't forget change the path in generate_list.py !)
-
-3. ```cd mel``` and copy the train.txt and val.txt to /librosa-mel.
-
-4. Modify the path in resnet_50.prototxt, resnet_50_solver.prototxt.
-
-5. Run caffe ```./build/tools/caffe train --solver=/home/username/librosa-mel/resnet_50_solverprotxt```
-
-## Notice
-
-The folder under librosa-mel mel, mel_1, mel_2 means the mel feature, derivative of mel amd double derivative of mel respectively.
+1. If you are using the different diemnsion input, remember modify the settings in prototxt files.
