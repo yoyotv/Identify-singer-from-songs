@@ -37,7 +37,7 @@ You can download the pre-train model at [here](https://drive.google.com/open?id=
 
 Some of bad models (e.g. speechpy power) are useless, so I did not upload it.
 
-By the way, we use GTX 1080Ti.
+By the way, we use GTX 1080TI.
 
 ## GET started
 
