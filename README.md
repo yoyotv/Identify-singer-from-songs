@@ -26,7 +26,7 @@ You have to install
 
 1. Clone the repository
   ```
-  git clone https://github.com/yoyotv/Character-detection-and-recognition.git
+  git clone https://github.com/yoyotv/Identify-singer-from-songs.git
   ```
 
 2. Finished!
