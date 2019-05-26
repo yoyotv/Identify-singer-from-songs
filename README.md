@@ -10,7 +10,13 @@ This repository is created because apply CNN in different fields are also challe
 
 There are a lot of features can represent a sound. E.g., MEl, FFT, STFT. Most of them are focus on the frequency, After all, frequency means the band that a person speaks. **We try the mel, stft, log-energy, power spectrum , these four kinds of methods.**
 
-We use modified-Resnet-50 as our CNN backbone.
+Each song is about 30 seconds long. We take the first 25 seconds as our data. We will draw the spectrum in every 1 second. So we will have 25 frames of spectrum in one song. Totally we will have 25 (frames) * 10 (songs) * 10 (singers) = 2500 frames.
+
+Seperate 2500 into 2000 (training) and 500 (testing).
+
+**We choose the first 8 songs as the training data, the rest 2 songs as the testing data for every singer.**
+
+We use modified-Resnet-50 as our CNN backbone. By trial and error, we found out that removing the 3x3 max pooling layer and modify the first convolutional layer from 7x7 to 5x5 will increase the accuracy about 10 %.
 
 ## GET started
 
