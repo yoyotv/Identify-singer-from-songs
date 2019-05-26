@@ -16,7 +16,6 @@ Seperate 2500 into 2000 (training) and 500 (testing). We choose the first 8 song
 
 We use modified-Resnet-50 as our CNN backbone. 
 
-**By trial and error, we found out that removing the 3x3 max pooling layer and modify the first convolutional layer from 7x7 to 5x5 will increase the accuracy about 10 %.**
 
 ## GET started
 
@@ -64,3 +63,11 @@ You have to install
 ## Notice 
 
 1. If you are using the different diemnsion input, remember modify the settings in prototxt files.
+
+## Tricks
+
+1. **By trial and error, we found out that removing the 3x3 max pooling layer and modify the first convolutional layer from 7x7 to 5x5 will increase the accuracy about 10 %.**
+
+2. If we replace the last global average pooling layer with fully-connected layer, the accuracy does not increase, sometimes it even get lower.
+
+3. Dropout only increase accuracy about 1~2 %.
