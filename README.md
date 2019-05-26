@@ -78,6 +78,8 @@ You have to install
 
 ## Deploy
 
+Use the files in delpoy folder to deploy!
+
 1. We first seperate the songs into 25 frames just like the process that we did in training part. We feed the 25 frames into the model and get 25 results. Which singer has the most highest classification number will be our final determine.
 
 2. We download other 3 songs from the internet, but the classify result is quiet embarrassing. Only one result is correct.
